@@ -1,18 +1,77 @@
 /*
-#D9B07E (marrom 1)
-#8C6542 (marrom 2)
-#401801 (marrom 3)
-#0D0000 (marrom 4)
-#F2F2F2 (branco)
+#F2C641 amarelo
+#F29B30 laranja
+#D9814E laranja 2
+#D9BBB0 bege
+#efe4e0 branco
+#0D0000 preto
 */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "MS UI Gothic";
-    color: #F2F2F2;
 }
 
 body {
     background-color: #0D0000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    color: #efe4e0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 40px 0 40px 0;
+    border-left: #F2C641 2px double;
+    padding: 10px;
+}
+
+.container-topicos {
+    padding: 20px;
+    max-width: 250px;
+    font-size: 16px;
+}
+
+.container-texto {
+    padding: 20px;
+    max-width: 550px;
+}
+
+h1, h2 {
+    color: #F29B30;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color:#F2C641;
+    font-style: italic;
+    padding: 10px;
+}
+
+.container-texto p {
+    padding: 20px 0 20px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+picture {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+}
+
+picture p {
+    font-size: 13px;
+    font-style: italic;
+    text-align: end;
+    color: #efe4e07f;
 }
