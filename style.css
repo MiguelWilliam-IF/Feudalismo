@@ -36,6 +36,20 @@ body {
     font-size: 16px;
 }
 
+.container-topicos ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #efe4e0;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid #D9BBB0;
+}
+
 .container-texto {
     padding: 20px;
     max-width: 550px;
